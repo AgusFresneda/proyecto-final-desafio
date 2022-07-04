@@ -39,6 +39,11 @@ header {
     font-family: 'Playfair Display', serif;  
 }
 
+.logo:hover {
+    color: #877991;
+    font-size: 45px;
+}
+
 
 
 .nav-li ul {
@@ -100,7 +105,35 @@ h2 {
     display: flex;
     align-items: center;
     color: #877991;
+    animation-name: animacion-footer;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
    
+}
+
+@keyframes animacion-footer {
+    0% {
+        color: #877991; 
+        font-size: 30px;
+        
+    }
+
+    25% {
+        color: #e4e;
+        font-size: 25px;
+        
+    }
+
+    50% {
+        color: #e4e1e6;
+        
+    }
+
+    100% {
+        color: #877991;
+        
+    }
 }
 
 
